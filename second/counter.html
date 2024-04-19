@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body{
+            margin-top: 200px;
+            text-align: center;
+            background-color:ghostwhite;
+        }
+        button{
+            text-align: center;
+            cursor:pointer;
+            border-radius: 25%;
+            margin-right: 10px;
+            transition-duration: .2s;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        p{
+            font-size: 5em;
+        }
+
+    </style>
+
+</head>
+<body>
+    <p id="para">1</p>
+    <button id="btn-inc">Increase</button>
+    <button id="btn-dec">Decrease</button>
+    <button id="btn-reset">reset</button>
+
+    <script>
+        inc= document.getElementById("btn-inc");
+        dec= document.getElementById("btn-dec");
+        reset= document.getElementById("btn-reset");
+        let count=0
+        inc.onclick=function(){
+            count++;
+            document.getElementById("para").textContent=count;
+        }
+        dec.onclick=function(){
+            count--;
+            document.getElementById("para").textContent=count;
+
+        }
+        reset.onclick=function(){
+            count=0;
+            document.getElementById("para").textContent=count;
+
+        }
+    </script>
+</body>
+</html>
