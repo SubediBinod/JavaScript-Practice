@@ -1,0 +1,29 @@
+
+form{
+    text-align: center;
+    background-color: bisque;
+    width: 20em;
+    display: block;
+    margin: auto;
+    padding:25px;
+    margin-top: 200px;
+    
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+
+}
+button{
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aquamarine;
+}
+#value{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
