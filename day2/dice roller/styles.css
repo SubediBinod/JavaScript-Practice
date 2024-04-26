@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+   font-size: medium;
+   margin-right: 30px;
+}
+#num{
+    border-radius: 10%;
+}
+button{
+    margin-top: 40px;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(55, 127, 127);
+   
+}
+button:hover{
+    background-color: rgb(210, 224, 224);
+}
+button:active{
+    background-color: rgb(120, 213, 213);
+}
+#val{
+    margin-top: 10px;
+}
+#dice-img{
+    margin-top:20px;
+}
