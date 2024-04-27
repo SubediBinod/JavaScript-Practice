@@ -1,0 +1,46 @@
+.upper-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.upper-container h1{
+    padding-left: 50px;
+    padding-top: 30px;
+   font-weight: 100;
+   font-style: italic;
+   font-family:Georgia, 'Times New Roman', Times, serif
+}
+.upper-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.middle-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+#password-field{
+    border: solid 2px #0a0303;
+    border-radius: 25px;
+    font-size: medium;
+
+}
+button{
+    text-align: center;
+    font-weight: bold;
+    background-color: #b57b7b;
+}
+button:hover{
+    background-color: #decccc;
+}
