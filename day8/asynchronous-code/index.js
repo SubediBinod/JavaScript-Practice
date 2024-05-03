@@ -23,7 +23,7 @@ console.log("End of synchronous code");
 console.log("Start of asynchronous code");
 
 function asynchronousFunction(callback) {
-    setTimeout(callback, 2000, "This is asynchronous code");// see  day7 setTimeout() 
+    setTimeout(callback, 2000, "This is asynchronous code");// see  day7 setTimeout()  for more clarity
 }
 
 asynchronousFunction(function(result) {

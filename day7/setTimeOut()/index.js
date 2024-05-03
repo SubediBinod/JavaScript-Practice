@@ -23,3 +23,11 @@ setTimeout(introduceHermione, 2000);
 
 // This message will be printed immediately
 console.log("Introducing Harry Potter and Hermione Granger...");
+
+// Syntax
+// setTimeout(function, milliseconds, param1, param2, ...)
+
+// Parameters
+// - function (Required): The function to execute.
+// - milliseconds (Optional): Number of milliseconds to wait before executing. Default value is 0.
+// - param1, param2, ... (Optional): Parameters to pass to the function. Not supported in IE9 and earlier.
