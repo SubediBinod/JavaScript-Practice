@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(229, 208, 181);
+    backdrop-filter:blur(1px);
+    background-color:hsl(0, 0%, 100%,0.1);
+    width:100%;
+}
