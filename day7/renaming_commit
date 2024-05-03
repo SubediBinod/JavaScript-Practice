@@ -1,0 +1,29 @@
+Certainly! Here are the steps in text format:
+
+1. **Make your changes**:
+   First, make the necessary changes to your files.
+
+2. **Stage the changes**:
+   Add the changes to the staging area using `git add`.
+
+   ```bash
+   git add <file1> <file2> ...
+   ```
+
+3. **Amend the commit**:
+   Once the changes are staged, you can use the `--amend` option with `git commit` to replace the previous commit with the staged changes.
+
+   ```bash
+   git commit --amend -m "New commit message"
+   ```
+
+   Replace `"New commit message"` with the desired commit message.
+
+4. **Push the changes (if needed)**:
+   If you've already pushed the previous commit to a remote repository, you'll need to force-push the amended commit.
+
+   ```bash
+   git push --force
+   ```
+
+   Be cautious with force-push (`--force`), especially if you're collaborating with others on the same branch. It rewrites history, which can cause conflicts if others have based their work on the previous commit.
