@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="screen" readonly>
+            <div id="buttons">
+                <button class="yo" onclick="clearScreen()">C</button>
+                <button class="yo" onclick="appendTo('-')">+/-</button>
+                <button class="yo" onclick="appendTo('/100*')">%</button>
+                <button class="yoyo" onclick="appendTo('/')">÷</button>
+                <button onclick="appendTo('7')">7</button>
+                <button onclick="appendTo('8')">8</button>
+                <button onclick="appendTo('9')">9</button>
+                <button class="yoyo" onclick="appendTo('*')">x</button>
+                <button onclick="appendTo('4')">4</button>
+                <button onclick="appendTo('5')">5</button>
+                <button onclick="appendTo('6')">6</button>
+                <button class="yoyo" onclick="appendTo('-')">-</button>
+                <button onclick="appendTo('1')">1</button>
+                <button onclick="appendTo('2')">2</button>
+                <button onclick="appendTo('3')">3</button>
+                <button class="yoyo" onclick="appendTo('+')">+</button>
+                <button class="zero" onclick="appendTo('0')">0</button>
+                <button onclick="appendTo('.')">.</button>
+                <button class="yoyo" onclick="calculateResult()">=</button>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+        
+
+
+
+    </body>
+</html>
