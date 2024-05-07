@@ -51,3 +51,26 @@ async function performOperations() {
 
 // Call the async function
 performOperations();
+
+//flow ::
+
+// Definition of asyncOperation Function:
+// - The asyncOperation function is defined, which returns a promise.
+// - Inside this function, a setTimeout is used to simulate an asynchronous operation that resolves after a delay of 1 second.
+
+// Definition of performOperations Function:
+// - The performOperations function is defined as an async function.
+// - Inside this function, the asyncOperation function is called using the await keyword.
+// - This await keyword pauses the execution of performOperations until the promise returned by asyncOperation resolves.
+// - Once the promise resolves, the execution continues.
+
+// Execution of performOperations Function:
+// - The performOperations function is called.
+// - Execution enters the function and reaches the await asyncOperation() line.
+// - At this point, the execution of performOperations is paused, and the event loop is free to handle other tasks.
+// - After 1 second (due to the delay in asyncOperation), the promise returned by asyncOperation resolves.
+// - The resolved value of the promise (in this case, "Data from async operation") is returned by await, and the execution of performOperations continues.
+
+// Logging the Result:
+// - The resolved value from asyncOperation is stored in the data variable.
+// - This value is then logged to the console, indicating that the asynchronous operation has completed successfully.
