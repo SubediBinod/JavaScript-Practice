@@ -1,0 +1,17 @@
+// fetch:
+// function used for making HTTP request to fetch resources.
+
+// (JSON style DataTransfer,images,files)
+// Simplifies asynchronous data fetching in javascript and used 
+// for interacting via APIs to retrieve and send 
+// fetch(url,{options})
+
+
+//HTTP RESPONSE STATUS CODES::
+// 1.Informational Responses (100-199)
+// 2.Successful Responses(200-299)
+// 3.Redirection Messages(300-399)
+// 4.Client Error Response (400-499)
+// 5.Server Error Response (500-599)
+
+
